@@ -1,0 +1,96 @@
+body {
+    background-color: #e9e9e9;
+    color: black;
+}
+
+.Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 50px;
+}
+
+
+
+.Navigation_bar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.Navigation_bar nav a {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 25px;
+    color: black;
+}
+
+
+.Top h1 {
+    font-size: 110px;
+    margin: 0;
+}
+.Top h2 {
+    font-size: 42px;
+    margin: 0;
+}
+
+
+.Texts {
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+}
+
+.Content {
+    column-count: 3;
+}
+
+.albums {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+#featured_album {
+    float: left;
+    width: 49%;
+}
+
+#Album_small img {
+    width: 24%;
+}
+
+.Author {
+    column-count: 2;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+}
+
+.Author h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+#Author_pfp {
+    max-width: 200px;
+    border-radius: 50%;
+    
+}
+
+#desc {
+    text-align: left;
+}
+
+.footer {
+    text-align: center;
+    font-size: 24px;
+    margin: 10%;
+}

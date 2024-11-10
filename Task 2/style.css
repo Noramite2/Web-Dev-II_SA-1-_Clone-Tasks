@@ -1,0 +1,36 @@
+body {
+    background-color: #e9e9e9;
+    color: black;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.Nav a {
+    margin-top: 15px;
+    margin-left: -20%;
+    margin-right: -20%;
+}
+
+.List {
+    column-count: 1;
+    display: block;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 5%;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.Midpoint {
+    column-count: 2;
+}
