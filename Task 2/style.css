@@ -127,18 +127,12 @@ body {
 }
 
 @media (min-width: 360px) and (max-width: 720px) { /* Mobile */
-    body {
-        background-color: #070410;
-        color: black;
-    }
-
     .Nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-
         text-align: center;
         padding: 15px;
         background-color: #231651;
@@ -151,13 +145,6 @@ body {
         font-size: 3em;
     }
 
-    .links {
-        display: flex;
-        color: black;
-        gap: 24px;
-        text-decoration: none;
-    }
-
     .links a {
         display: none;
     }
@@ -168,11 +155,6 @@ body {
         font-size: 1.5em;
         text-align: center;
         color: #ffffff;
-    }
-
-    #images {
-        display: inline-block;
-        max-width: 100%;
     }
 
     .Top {
@@ -256,4 +238,13 @@ body {
         font-size: 3em;
         color: #231651;
     }
+}
+
+@media (min-width: 721px) and (max-width: 1024px) { /* Tablet */
+
+
+
+
+
+
 }
