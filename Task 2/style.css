@@ -6,37 +6,75 @@ body {
 .Nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding: 15px;
     background-color: #ffffff;
+    font-size: 2em;
+    color: black;
 }
 
-.Nav a {
+.links {
+    display: flex;
     color: black;
-    margin-top: 15px;
-    margin-left: -20%;
-    margin-right: -20%;
+    gap: 48px;
+    text-decoration: none;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
 }
 
 .List {
-    column-count: 1;
     display: block;
-    justify-content: center;
     padding: 20px;
-    background-color: #ffffff;
-    margin-top: 5%;
-    margin-left: 150px;
-    margin-right: 150px;
+    font-size: 2em;
     text-align: center;
 }
 
 img {
-    max-width: 500px;
+    max-width: 380px;
     max-height: auto;
+}
+
+.Top {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+}
+
+.Bottom_mogus {
+    background-color: #ffffff;
+    column-count: 2;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
 }
 
 .Midpoint {
     column-count: 2;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+}
+
+.BG2 {
+    background-color: #ffffff;
+}
+
+#left_text {
+    text-align: left;
+    padding: 16px;
+}
+
+.body_button {
+    width: 196px;
+    height: 48px;
 }

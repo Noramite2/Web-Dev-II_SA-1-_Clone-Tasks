@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Protest+Guerrilla&display=swap');
+
 body {
     background-color: #e9e9e9;
     color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
 }
 
 .Logo {
@@ -11,7 +17,9 @@ body {
     padding: 50px;
 }
 
-
+h1, h2 { 
+    font-family: 'Protest Guerrilla', sans-serif;
+}
 
 .Navigation_bar {
     display: block;
@@ -29,22 +37,19 @@ body {
     color: black;
 }
 
-
 .Top h1 {
     font-size: 110px;
     margin: 0;
 }
+
 .Top h2 {
     font-size: 42px;
     margin: 0;
 }
 
-
 .Texts {
     background-color: #ffffff;
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 50px 200px;
     padding: 10px;
 }
 
@@ -67,11 +72,8 @@ body {
 }
 
 .Author {
-    column-count: 2;
     text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 5%;
+    margin: 5% 25%;
 }
 
 .Author h1 {
@@ -80,9 +82,10 @@ body {
 }
 
 #Author_pfp {
+    float: right;
     max-width: 200px;
     border-radius: 50%;
-    
+    padding-left: 5%;
 }
 
 #desc {
@@ -94,3 +97,211 @@ body {
     font-size: 24px;
     margin: 10%;
 }
+
+/* Media Queries */
+@media (max-width: 540px) { /* Small Mobile */
+    body {
+        font-size: 24px;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .Logo {
+        width: 80px;
+        padding: 12px;
+    }
+    
+    .Navigation_bar {
+        padding-top: 12px;
+    }
+
+    .Navigation_bar nav a {
+        font-size: 24px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .Top h1 {
+        font-size: 72px;
+        text-align: center;
+    }
+
+    .Top h2 {
+        font-size: 72px;
+        text-align: center;
+    }
+
+    .Texts {
+        margin: 12px;
+        padding: 12px;
+    }
+
+    .Content {
+        column-count: 1;
+    }
+
+    #Album_small img {
+        display: inline-block;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #featured_album {
+        display: none;
+    }
+
+    .Author {
+        margin: 12px;
+        column-count: 1;
+    }
+
+    #Author_pfp {
+        float: none;
+    }
+
+    .footer {
+        margin: 12px;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 720px) { /* Large Mobile */
+    body {
+        font-size: 20px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 42px;
+    }
+
+    .Logo {
+        width: 80px;
+        padding: 20px;
+    }
+
+    .Navigation_bar {
+        padding-top: 20px;
+    }
+
+    .Navigation_bar nav a {
+        font-size: 20px;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .Top h1 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .Top h2 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .Texts {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .Content {
+        column-count: 1;
+    }
+
+    #Album_small img {
+        display: inline-block;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #featured_album {
+        display: none;
+    }
+
+    .Author {
+        margin: 20px;
+        column-count: 1;
+    }
+    
+    #Author_pfp {
+        float: none;
+    }
+
+    .footer {
+        margin: 20px;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 1024px) { /* Tablet */
+    body {
+        font-size: 24px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 42px;
+    }
+
+    .Logo {
+        width: 80px;
+        padding: 30px;
+    }
+
+    .Navigation_bar {
+        padding-top: 30px;
+    }
+
+    .Navigation_bar nav a {
+        font-size: 22px;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .Top h1 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .Top h2 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .Texts {
+        margin: 30px;
+        padding: 30px;
+    }
+
+    .Content {
+        column-count: 1;
+    }
+
+    #Album_small img {
+        display: inline-block;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #featured_album {
+        display: none;
+    }
+
+    .Author {
+        margin: 30px;
+        column-count: 1;
+    }
+
+    #Author_pfp {
+        float: none;
+    }
+    
+    .footer {
+        margin: 30px;
+    }
+}
+
