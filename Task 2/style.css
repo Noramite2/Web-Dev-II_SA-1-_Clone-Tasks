@@ -125,3 +125,135 @@ body {
     font-size: 2em;
     color: #231651;
 }
+
+@media (min-width: 360px) and (max-width: 720px) { /* Mobile */
+    body {
+        background-color: #070410;
+        color: black;
+    }
+
+    .Nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+
+        text-align: center;
+        padding: 15px;
+        background-color: #231651;
+        color: #ffffff;
+    }
+
+    .Nav p {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        font-size: 3em;
+    }
+
+    .links {
+        display: flex;
+        color: black;
+        gap: 24px;
+        text-decoration: none;
+    }
+
+    .links a {
+        display: none;
+    }
+
+    .List {
+        display: block;
+        padding: 10px;
+        font-size: 1.5em;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    #images {
+        display: inline-block;
+        max-width: 100%;
+    }
+
+    .Top {
+        background-color: #231651;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 24px;
+    }
+
+    #top_img {
+        display: inline-block;
+        width: 100%;  
+        height: auto;
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 60%;
+    }
+
+    .top_desc p {
+        max-width: 100%;
+    }
+
+    .top_desc {
+        display: block;
+    }
+
+    #top_button {
+        display: block;
+        margin: auto;
+        width: 90%;
+        height: 100px;
+        font-size: 2em;
+    }
+
+    .Bottom_mogus {
+        background-color: #231651;
+        column-count: 1;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 24px;
+    }
+
+    .Midpoint {
+        column-count: 1;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 24px;
+    }
+
+    .BG2 {
+        background-color: #231651;
+    }
+
+    #BG2_spacer {
+        margin-bottom: 24px;
+    }
+
+    #left_text {
+        text-align: left;
+        padding: 8px;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+
+    .body_button {
+        width: 90%;
+        height: 100px;
+        border-radius: 16px;
+        font-size: 2em;
+        background-color: #4DCCBD;
+        color: #ffffff;
+    }
+
+    #Search_button {
+        width: 250px;
+        height: 100px;
+        border-radius: 16px;
+        font-size: 3em;
+        color: #231651;
+    }
+}
