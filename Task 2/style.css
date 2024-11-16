@@ -10,6 +10,7 @@ h1, h2, button {
     font-family: 'Teko', sans-serif; 
 }
 
+/* this is the navigation bar */
 .Nav {
     display: flex;
     justify-content: space-between;
@@ -41,7 +42,9 @@ h1, h2, button {
     text-decoration: none;
     font-size: 3em;
 }
+/* this is the navigation bar ^^^ */
 
+/* this is the movies list part */
 .List {
     display: block;
     padding: 20px;
@@ -55,6 +58,7 @@ h1, h2, button {
     max-width: 100%;
 }
 
+/* this is the first movie, desc, and button */
 .Top {
     background-color: #231651;
     max-width: 900px;
@@ -89,7 +93,9 @@ h1, h2, button {
     height: 200px;
     font-size: 1.5em;
 }
+/* this is the first movie, desc, and button ^^^ */
 
+/* this is the bottom 3 movies */
 .Bottom_mogus {
     background-color: #231651;
     column-count: 2;
@@ -99,7 +105,9 @@ h1, h2, button {
     margin-top: 48px;
     box-shadow: 5px 5px #EEF36A;
 }
+/* this is the bottom 3 movies ^^^ */
 
+/* this is the middle 2 movies */
 .Midpoint {
     column-count: 2;
     max-width: 900px;
@@ -112,7 +120,9 @@ h1, h2, button {
     background-color: #231651;
     box-shadow: 5px 5px #EEF36A;
 }
+/* this is the middle 2 movies ^^^ */
 
+/* this is a text align id to make certain text left */
 #left_text {
     text-align: left;
     padding: 16px;
@@ -120,6 +130,7 @@ h1, h2, button {
     margin-top: 0%;
 }
 
+/* this is the buttons for everything except the top and search bar */
 .body_button {
     width: 270px;
     height: 120px;
@@ -128,7 +139,9 @@ h1, h2, button {
     background-color: #4DCCBD;
     color: #ffffff;
 }
+/* this is the movies list part ^^^ */
 
+/* this is the Search button for the nav bar */
 #Search_button {
     width: 200px;
     height: 75px;
@@ -138,6 +151,8 @@ h1, h2, button {
 }
 
 @media (min-width: 360px) and (max-width: 720px) { /* Mobile */
+    /* this hides the nav links and makes puts everything in one collum, also edits the sizes of elements */
+    
     .Nav {
         display: flex;
         justify-content: space-between;
@@ -252,6 +267,9 @@ h1, h2, button {
 }
 
 @media (min-width: 721px) and (max-width: 1024px) { /* Tablet */
+    /* the most pain of my life */
+    /* this somehow makes my spagetti code look like the wire frame using more spagetti code*/
+    /* basically the mobile view port but put into 2 columns then the bottom div is forcibly resized to match the top and middle */
     .Nav {
         display: flex;
         justify-content: space-between;
@@ -280,7 +298,7 @@ h1, h2, button {
         font-size: 1.5em;
         text-align: center;
         color: #ffffff;
-        column-count: 2;
+        column-count: 2; /* the column number */
         margin-top: 24px;
         max-width: 900px;
         margin-left: auto;
@@ -329,7 +347,7 @@ h1, h2, button {
         margin-top: 24px;
     }
 
-    #resize {
+    #resize { /* forced resize */
         height: 762px;
     }
 
