@@ -1,0 +1,33 @@
+* {
+    background-color: #1d1d1d;
+    color: white;
+}
+
+body, nav {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.nav_bar {
+    background-color: #333;
+    overflow: hsidden;
+    float: center;
+    align-items: right;
+    text-align: center;
+}
+
+.nav_bar nav a {
+    float: top;
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav_bar nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
